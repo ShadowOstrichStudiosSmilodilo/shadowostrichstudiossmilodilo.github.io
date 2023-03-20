@@ -26,7 +26,7 @@ function ttoggle() {
       document.getElementById("ttimesup").style.visibility = "visible";
       document.getElementById("tbutton").style.visibility = "hidden";
       document.getElementById("ttextbox").style.visibility = "hidden";
-      document.getElementById("tresult").innerHTML = "You got " + tgrade.innerHTML + " questions correct in 300 seconds! Try Again To Beat Your Highest Score!"
+      document.getElementById("tresult").innerHTML = "You got " + tgrade.innerHTML + " questions correct in 120 seconds! Try Again To Beat Your Highest Score!"
       return;
     }
   }
