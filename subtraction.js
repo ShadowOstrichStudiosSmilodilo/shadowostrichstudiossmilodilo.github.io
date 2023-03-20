@@ -26,7 +26,7 @@ function stoggle() {
       document.getElementById("stimesup").style.visibility = "visible";
       document.getElementById("sbutton").style.visibility = "hidden";
       document.getElementById("stextbox").style.visibility = "hidden";
-      document.getElementById("sresult").innerHTML = "You got " + sgrade.innerHTML + " questions correct in 300 seconds! Try Again To Beat Your Highest Score!"
+      document.getElementById("sresult").innerHTML = "You got " + sgrade.innerHTML + " questions correct in 120 seconds! Try Again To Beat Your Highest Score!"
       return;
     }
   }
