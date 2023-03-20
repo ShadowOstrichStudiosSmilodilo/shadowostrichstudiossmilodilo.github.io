@@ -84,7 +84,7 @@ function atoggle() {
       document.getElementById("atimesup").style.visibility = "visible";
       document.getElementById("abutton").style.visibility = "hidden";
       document.getElementById("atextbox").style.visibility = "hidden";
-      document.getElementById("aresult").innerHTML = "You got " + agrade.innerHTML + " questions correct in 300 seconds! Try Again To Beat Your Highest Score!"
+      document.getElementById("aresult").innerHTML = "You got " + agrade.innerHTML + " questions correct in 120 seconds! Try Again To Beat Your Highest Score!"
       return;
     }
   }
