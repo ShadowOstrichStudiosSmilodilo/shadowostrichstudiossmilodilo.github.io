@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon (2).ico" />
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/index.html" id='navbar__logo'><img src="images/Untitled design.png"></a>
+            <div class="navbar__toggle" id="mobile-menu">   
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="container">
+                <form action="https://google.com/search" class="search-bar">
+                    <input type="text" placeholder="search lessons" name="q">
+                    <button type="submit"><img src="images/search.png"></button>
+                </form>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/lessons.html" class="navbar__links" id="lessons-page">Lessons</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="/credits.html" class="navbar__links" id="about-page">Credits</a>
+              </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  <!-- Lessons Section Section -->
+  <div class="multiplication__container">
+    <div class="multiplication__header">
+      <h1>Lessons</h1>
+    </div>
+    <h2 id="mtitle" >
+        Multiplication Skills Test
+    </h2>
+        <p id="minstructions" >
+        This course is designed to test your ability to do multiplication quickly. You will receive 2 digit multiplication questions. Being able to multiply big numbers in your head is an essential skill to be good at math. Answer as many questions correct in the allotted time frame. It is recommended to try and solve problems on your own without using calculators. A better grade is worth more than # of questions correct.
+        </p>
+        <div id="mequation"></div>
+        <div class="mbuttonBlock">
+        <button id="mstartbutton" onclick="mtoggle(); mnew();">Start Test</button>
+        </div>
+        <input id="mtextbox" type="text" value="" placeholder="Answer Here">
+        <button id="mbutton" onclick="mnew()">Next Question</button>
+        <p id="mgrade">
+          ?
+        </p>
+        <div class="mbtnGroup">
+                <span class="mtimer">
+                  <span id="mcounter"></span>
+                </span>
+              </div>
+              <div id="mtimesup">"Times Up!"</div>
+              <div id="mresult"></div>
+  </div>
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a>
+            <a href="/">Testimonials</a>
+            <a href="/">Careers</a>
+            <a href="/">Investments</a>
+            <a href="/">Terms of Service</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="/">Contact</a>
+          <a href="/">Support</a>
+          <a href="/">Destinations</a>
+          <a href="/">Sponsorships</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Videos</h2>
+          <a href="/">Submit Video</a>
+          <a href="/">Ambassadors</a>
+          <a href="/">Agency</a>
+          <a href="/">Influencer</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Social Media</h2>
+          <a href="/">Instagram</a>
+          <a href="/">Facebook</a>
+          <a href="/">Youtube</a>
+          <a href="/">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo">WEBSITE</a>
+        </div>
+        <p class="website__rights">© WEBSITE 2022. All rights reserved</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="multiplication.js"></script>
+</body>
+</html>
