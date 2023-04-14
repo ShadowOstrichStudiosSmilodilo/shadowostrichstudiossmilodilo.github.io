@@ -1497,13 +1497,14 @@
     width: 20%;
 }
 
-#putin {
+#niko {
     width: 500px;
     max-height: 670px;
 }
 
-#xi {
+#eric {
     width: 500px;
+    max-height: 670px;
 }
 
 .name {
